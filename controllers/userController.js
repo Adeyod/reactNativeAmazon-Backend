@@ -267,6 +267,8 @@ const loginUser = async (req, res) => {
       res
     );
 
+    console.log(others);
+
     return res.json({
       message: 'Login successful',
       status: 200,
